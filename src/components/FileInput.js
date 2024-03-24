@@ -8,7 +8,6 @@ function FileInput({ name, value, onChange }) {
     onChange(name, nextValue);
   };
 
-  // 파일 왜 안열리는지 확인 필요
   return <input type="file" onChange={handleChange} />;
 }
 
