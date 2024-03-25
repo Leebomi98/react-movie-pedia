@@ -29,7 +29,7 @@ function FileInput({ name, value, onChange }) {
       URL.revokeObjectURL(nextPreview);
     };
   }, [value]);
-
+  //수정해보기
   return (
     <div>
       <img src={preview} alt="이미지 미리보기" />
