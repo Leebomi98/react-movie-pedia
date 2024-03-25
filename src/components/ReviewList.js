@@ -1,5 +1,5 @@
-import "./ReviewList.css";
 import Rating from "./Rating";
+import "./ReviewList.css";
 
 function formatDate(value) {
   const date = new Date(value);
@@ -7,7 +7,9 @@ function formatDate(value) {
 }
 
 function ReviewListItem({ item, onDelete }) {
-  const handleDeleteClick = () => onDelete(item.id);
+  const handleDeleteClick = () => {
+    onDelete(item.id);
+  };
 
   return (
     <div className="ReviewListItem">
