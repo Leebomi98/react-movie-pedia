@@ -5,6 +5,7 @@ import { createReview, deleteReview, getReviews, updateReview } from "../api";
 import useAsync from "./hooks/useAsync";
 import { LocaleProvider } from "../contexts/LocaleContext";
 import LocaleSelect from "./LocaleSelect";
+import "./App.css";
 
 const LIMIT = 6;
 
