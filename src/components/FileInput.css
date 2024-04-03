@@ -1,0 +1,19 @@
+.FileInput {
+  position: relative;
+  width: 182px;
+  height: 262px;
+  border-radius: 0 15px 0 15px;
+  overflow: hidden;
+}
+
+.FileInput-preview {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.FileInput-preview.selected {
+  opacity: 0.48;
+}
