@@ -27,3 +27,16 @@
   height: 100%;
   cursor: pointer;
 }
+
+.FileInput-clear-button {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 26px;
+  height: 26px;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+}
