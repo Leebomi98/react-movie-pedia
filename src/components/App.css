@@ -34,3 +34,12 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+.App .App-nav,
+.App .App-footer {
+  flex: none;
+}
+
+.App .App-container {
+  flex: 1 1;
+}
